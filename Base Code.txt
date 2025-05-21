@@ -38,6 +38,7 @@ int main(int argc, char* argv[]) {
 	GLenum err = glewInit();
 	if (GLEW_OK != err) {
 		fprintf(stderr, "GLEW error");
+                fprintf(stderr, "GLEW error");
 		return 1;
 	}
 
